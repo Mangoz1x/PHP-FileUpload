@@ -1,0 +1,38 @@
+#userProfileDropDown {
+    border-radius: 50%;
+    width: 63.33px;
+    height: 63.33px;
+    margin: 10px;
+    background-color: orange;
+    font-size: 20px;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    color: #eee;
+}
+
+#userOnclickHeaderDropDown {
+    width: 200px;
+    min-height: 100px;
+    z-index: 99999999999999;
+    height: fit-content;
+    position: absolute;
+    right: 10px;
+    top: 93.33px;
+    border-radius: 5px;
+    background-color: rgb(37, 37, 37);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.userSettingsFromDropDown {
+    color: #eee;
+    font-size: 20px;
+}

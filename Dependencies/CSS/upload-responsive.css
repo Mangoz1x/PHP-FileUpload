@@ -1,0 +1,102 @@
+@media only screen and (max-width: 1350px) {
+    .confirmDeleteMain {
+        width: 80% !important;
+    }
+
+    .applyParaMaxWidth {
+        max-width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .middleClassSelector_FolderName {
+        width: 95%;
+    }
+
+    .folderDelteManual {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .display-flex-responsive-false {
+        display: flex !important;
+        width: fit-content;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .portfolioHeading h1 {
+        font-size: 62px;
+    }
+
+    .confirmDeleteMain {
+        width: 95% !important;
+    }
+
+    .folderDelteManual {
+        flex-direction: column !important;
+    }
+
+    .display-flex-responsive-false {
+        width: 100%;
+    }
+
+    .applyParaMaxWidth {
+        max-width: 90%;
+    }
+
+    .btnDelteFolder2 {
+        margin-top: 15px;
+        margin-left: 0 !important;
+        text-align: center;
+        float: unset !important;
+        width: 75%;
+    }
+
+    .folderDelteManual {
+        width: 100% !important;
+    }
+
+    .btnDelteFolder1 {
+        width: 75%;
+        text-align: center;
+        float: unset !important;
+    }
+
+    .floatRight {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .floatLeft {
+        margin-left: 4px;
+    }
+}
+
+@media only screen and (max-width: 420px) { 
+    .createFolderManualContainer {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0;
+    }
+
+    .asghi2Responsive {
+        width: 90% !important;
+        margin: 15px;
+    }
+
+    .createFolderManual {
+        margin-bottom: 10px;
+    }
+
+    .deleteFolderManual {
+        margin-bottom: 10px;
+    }
+
+    .cancleboxBtn {
+        margin-left: 0;
+    }
+}
